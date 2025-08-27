@@ -1,0 +1,16 @@
+[project]
+name = "ml-detector"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "joblib>=1.5.1",
+    "lightgbm>=4.6.0",
+    "mlflow>=3.3.1",
+    "scikit-learn>=1.7.1",
+    "seaborn>=0.13.2",
+    "shap>=0.48.0",
+    "streamlit>=1.48.1",
+    "xgboost>=3.0.4",
+]
